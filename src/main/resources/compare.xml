@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+	<metaData>
+		<operation>ISSUANCE</operation>
+		<clientId>idftg4519bsd519</clientId>
+		<productCode>DTP-PRD-002</productCode>
+		<coiNumber>COI900000022023230000917839</coiNumber>
+		<msgTimestamp>1686728134038</msgTimestamp>
+	</metaData>
+	<payload>
+		<issuanceDetailsVO>
+			<coiNumGen>N</coiNumGen>
+			<productCode>DTP-PRD-002</productCode>
+			<policyOpenPolNo>P/900000/04/2024/000032</policyOpenPolNo>
+			<policyFromDate>16-06-2023 00:00:00</policyFromDate>
+			<policyToDate>16-06-2023 23:59:59</policyToDate>
+			<period>1</period>
+			<fullFillerCode>SO900000</fullFillerCode>
+			<divisionCode>900000</divisionCode>
+			<bankCode>IDFC</bankCode>
+			<bankBranchCode>42541</bankBranchCode>
+			<spCode>SP0106470636</spCode>
+			<corpEmpId></corpEmpId>
+			<scheme>1A</scheme>
+			<referenceNo1>CB0000122291</referenceNo1>
+			<referenceNo2>BF7Z91U2</referenceNo2>
+			<referenceNo3>16-06-2023 00:00:00</referenceNo3>
+			<bankRelation />
+			<bankAccNo />
+			<name>Ganesh Kumar</name>
+			<gender />
+			<relation />
+			<dateOfBirth />
+			<ageInYears />
+			<ageInMonths />
+			<occupation />
+			<plan>Plan A</plan>
+			<planASi />
+			<planBSi />
+			<planCSi />
+			<planDSi />
+			<planESi />
+			<planFSi />
+			<planFDefinedLimit />
+			<preExistingDisease />
+			<panNo />
+			<mailId />
+			<mobileNo />
+			<address>gandhi street</address>
+			<state />
+			<pinCode />
+			<city />
+			<nomineeDetailsVOList>
+				<nomineeName>R Mishra</nomineeName>
+				<nomineeRelationship>Rel_01</nomineeRelationship>
+				<nomineeDOB>10-10-1984</nomineeDOB>
+				<nomineeAge>38</nomineeAge>
+				<nomineeGender>FEMALE</nomineeGender>
+				<nomineePercentage>100</nomineePercentage>
+				<appointeeName>R Mishra</appointeeName>
+				<appointeeDOB>05-05-1995</appointeeDOB>
+				<appointeeAge>28</appointeeAge>
+				<appointeeRelationship>Rel_02</appointeeRelationship>
+			</nomineeDetailsVOList>
+			<nomineeDetailsVOList>
+				<nomineeName>R Mishra</nomineeName>
+				<nomineeRelationship>Rel_01</nomineeRelationship>
+				<nomineeDOB>10-10-1984</nomineeDOB>
+				<nomineeAge>38</nomineeAge>
+				<nomineeGender>FEMALE</nomineeGender>
+				<nomineePercentage>100</nomineePercentage>
+				<appointeeName>R Mishra</appointeeName>
+				<appointeeDOB>05-05-1995</appointeeDOB>
+				<appointeeAge>28</appointeeAge>
+				<appointeeRelationship>Rel_02</appointeeRelationship>
+			</nomineeDetailsVOList>
+			<airYN>N</airYN>
+			<roadYN>N</roadYN>
+			<railYN>N</railYN>
+			<privateCarYN>Y</privateCarYN>
+			<legalHeir>N</legalHeir>
+			<insuredDetailsVOList>
+				<name>Ganesh Kumar</name>
+				<gender>MALE</gender>
+				<relation>Rel_01</relation>
+				<dateOfBirth>08-10-1985</dateOfBirth>
+				<ageInYears>37</ageInYears>
+				<ageInMonths>8</ageInMonths>
+				<sumInsured>300000.000</sumInsured>
+				<originPlace>Chennai</originPlace>
+				<destinationPlace>Bangalore</destinationPlace>
+				<mailId>ganeshkumar.b@starhealth.in</mailId>
+				<mobileNo>9840387472</mobileNo>
+				<address>gandhi street</address>
+				<state>Tamil Nadu</state>
+				<pinCode>600033</pinCode>
+				<city>Chennai</city>
+				<heartDisease>N</heartDisease>
+				<stroke>N</stroke>
+				<preExistingDisease />
+				<planBYn />
+				<planEYn />
+				<planFYn />
+				<emailId />
+			</insuredDetailsVOList>
+			<insuredDetailsVOList>
+				<name>Ganesh Kumar</name>
+				<gender>MALE</gender>
+				<relation>Rel_01</relation>
+				<dateOfBirth>08-10-1985</dateOfBirth>
+				<ageInYears>37</ageInYears>
+				<ageInMonths>8</ageInMonths>
+				<sumInsured>300000.000</sumInsured>
+				<originPlace>Chennai</originPlace>
+				<destinationPlace>Bangalore</destinationPlace>
+				<mailId>ganeshkumar.b@starhealth.in</mailId>
+				<mobileNo>9840387472</mobileNo>
+				<address>gandhi street</address>
+				<state>Tamil Nadu</state>
+				<pinCode>600033</pinCode>
+				<city>Chennai</city>
+				<heartDisease>N</heartDisease>
+				<stroke>N</stroke>
+				<preExistingDisease />
+				<planBYn />
+				<planEYn />
+				<planFYn />
+				<emailId />
+			</insuredDetailsVOList>
+			<coiPremiumDetailsVO>
+				<totalPremium />
+				<totalPremiumInWords />
+				<receiptType>2</receiptType>
+				<coiNo>COI900000022023230000917839</coiNo>
+				<premium>4.00</premium>
+				<igst>1.00</igst>
+				<cgst>0.00</cgst>
+				<sgst>0.00</sgst>
+				<coiDocLink></coiDocLink>
+			</coiPremiumDetailsVO>
+		</issuanceDetailsVO>
+		<cancellationProposalVO />
+	</payload>
+</root>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<GenerateDomesticTravelCertificate>
+	<oDomesticTravelCertificate>
+		<Air_YN>N</Air_YN>
+		<LegalHeir>N</LegalHeir>
+		<DomesticInsuredDetails>
+			<TravelInsuredDetail>
+				<DateOfBirth>08-10-1985</DateOfBirth>
+				<Gender>MALE</Gender>
+				<Address>gandhi street</Address>
+				<PinCode>600033</PinCode>
+				<Name>Ganesh Kumar</Name>
+				<DestinationPlace>Bangalore</DestinationPlace>
+				<Stroke>N</Stroke>
+				<AgeInYears>37</AgeInYears>
+				<City>Chennai</City>
+				<HeartDisease>N</HeartDisease>
+				<OriginPlace>Chennai</OriginPlace>
+				<AgeInMonths>8</AgeInMonths>
+				<SumInsured>300000.000</SumInsured>
+				<MailId>ganeshkumar.b@starhealth.in</MailId>
+				<MobileNo>9840387472</MobileNo>
+				<Relation>Rel_01</Relation>
+				<State>Tamil Nadu</State>
+			</TravelInsuredDetail>
+			<TravelInsuredDetail>
+				<Stroke>N</Stroke>
+				<OriginPlace>Chennai</OriginPlace>
+				<Name>Ganesh Kumar</Name>
+				<Gender>MALE</Gender>
+				<HeartDisease>N</HeartDisease>
+				<AgeInMonths>8</AgeInMonths>
+				<Relation>Rel_01</Relation>
+				<MailId>ganeshkumar.b@starhealth.in</MailId>
+				<DestinationPlace>Bangalore</DestinationPlace>
+				<MobileNo>9840387472</MobileNo>
+				<AgeInYears>37</AgeInYears>
+				<City>Chennai</City>
+				<Address>gandhi street</Address>
+				<State>Tamil Nadu</State>
+				<DateOfBirth>08-10-1985</DateOfBirth>
+				<SumInsured>300000.000</SumInsured>
+				<PinCode>600033</PinCode>
+			</TravelInsuredDetail>
+		</DomesticInsuredDetails>
+		<roadYN>N</roadYN>
+		<COIPremiumDetails>
+			<SGST>0.00</SGST>
+			<COINo>COI900000022023230000917839</COINo>
+			<Premium>4.00</Premium>
+			<Receipt_Type>2</Receipt_Type>
+			<IGST>1.00</IGST>
+			<CGST>0.00</CGST>
+		</COIPremiumDetails>
+		<DomesticNomineeDetails>
+			<TravelNomineeDetail>
+				<AppointeeAge>28</AppointeeAge>
+				<NomineeName>R Mishra</NomineeName>
+				<NomineeDOB>10-10-1984</NomineeDOB>
+				<AppointeeRelationship>Rel_02</AppointeeRelationship>
+				<NomineeGender>FEMALE</NomineeGender>
+				<NomineeRelationship>Rel_01</NomineeRelationship>
+				<AppointeeDOB>05-05-1995</AppointeeDOB>
+				<NomineePercentage>100</NomineePercentage>
+				<AppointeeName>R Mishra</AppointeeName>
+				<NomineeAge>38</NomineeAge>
+			</TravelNomineeDetail>
+			<TravelNomineeDetail>
+				<NomineeRelationship>Rel_01</NomineeRelationship>
+				<NomineeName>R Mishra</NomineeName>
+				<NomineeDOB>10-10-1984</NomineeDOB>
+				<AppointeeAge>28</AppointeeAge>
+				<AppointeeRelationship>Rel_02</AppointeeRelationship>
+				<NomineeGender>FEMALE</NomineeGender>
+				<AppointeeName>R Mishra</AppointeeName>
+				<NomineeAge>38</NomineeAge>
+				<AppointeeDOB>05-05-1995</AppointeeDOB>
+				<NomineePercentage>100</NomineePercentage>
+			</TravelNomineeDetail>
+		</DomesticNomineeDetails>
+		<FullFillerCode>SO900000</FullFillerCode>
+		<Address>gandhi street</Address>
+		<BankCode>IDFC</BankCode>
+		<DivisionCode>900000</DivisionCode>
+		<Scheme>1A</Scheme>
+		<COI_Num_Gen>N</COI_Num_Gen>
+		<ProductCode>DTP-PRD-002</ProductCode>
+		<Plan>Plan A</Plan>
+		<PolOpenPolNo>P/900000/04/2024/000032</PolOpenPolNo>
+		<ReferenceNo1>CB0000122291</ReferenceNo1>
+		<PolToDt>16-06-2023 23:59:59</PolToDt>
+		<Name>Ganesh Kumar</Name>
+		<PolFmDt>16-06-2023 00:00:00</PolFmDt>
+		<SPCode>SP0106470636</SPCode>
+		<BankBranchCode>42541</BankBranchCode>
+		<ReferenceNo3>16-06-2023 00:00:00</ReferenceNo3>
+		<privateCarYN>Y</privateCarYN>
+		<ReferenceNo2>BF7Z91U2</ReferenceNo2>
+		<Rail_YN>N</Rail_YN>
+		<Period>1</Period>
+	</oDomesticTravelCertificate>
+</GenerateDomesticTravelCertificate>
+

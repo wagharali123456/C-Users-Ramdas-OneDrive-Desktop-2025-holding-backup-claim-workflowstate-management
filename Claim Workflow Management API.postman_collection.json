@@ -1,0 +1,147 @@
+{
+	"info": {
+		"_postman_id": "8111d6f5-6870-4539-a99f-25a527d93405",
+		"name": "Claim Workflow Management API",
+		"description": "Collection for Claim Workflow management endpoints including state and stage transitions.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12302873"
+	},
+	"item": [
+		{
+			"name": "Create Claim",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "claimNumber",
+							"value": "12345",
+							"type": "text"
+						},
+						{
+							"key": "workflowName",
+							"value": "ClaimWorkflow",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8080/claims/create",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"create"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transition to Next State",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/claims/{{claimId}}/transition",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"{{claimId}}",
+						"transition"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transition to Specific State",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/claims/{{claimId}}/transition-to-state/{{stateId}}",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"{{claimId}}",
+						"transition-to-state",
+						"{{stateId}}"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transition to Next Stage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/claims/{{claimId}}/transition-to-next-stage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"{{claimId}}",
+						"transition-to-next-stage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transition to Previous Stage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/claims/{{claimId}}/transition-to-previous-stage",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"{{claimId}}",
+						"transition-to-previous-stage"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Reset to Initial State",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/claims/{{claimId}}/reset-to-initial-state",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"claims",
+						"{{claimId}}",
+						"reset-to-initial-state"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
